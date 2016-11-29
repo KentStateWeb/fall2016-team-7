@@ -6,7 +6,67 @@
     <title>Page Title Goes Here</title>
     <meta name="Stylists" content="Stylists">
   </head>
+
+<div>
+  <header>
+    <h1>Ohio Chop Shop</h1>
+    <ul>
+      <li>About</li>
+      <li>Services</li>
+      <li>Stylists</li>
+      <li>Products</li>
+      <li>Schedule</li>
+    </ul>
+  </header>
+</div>
+
+<div>
+<h1> Contact Information</h1>
+
+<h2> Schedule an appointment now! </h2>
+
+<h2> Phone number </h2>
+<p> 330-769-4844 </p>
+
+<h2> Address</h2>
+<p> Ohio Chop Shop 1911 W. Akron Ave. Akron OH 44302 </p>
+</div>
+
+
+<div>
+<h2>Hours</h2>
+<ul>
+<li>Tuesday 10am-8pm</li>
+<li>Wednesday 10am-8pm</li>
+<li>Thursday 10am-8pm</li>
+<li>Friday 9am-5pm</li>
+<li>Saturday 8am-4pm</li>
+<li>Sunday and Monday Closed</li>
+</ul>
+</div>
+
+<div>
+<h2> Salon Policies</h2>
+<p> Please be compassionate in remembering we are an appointment-preferred salon.
+   This means we reserve only enough time for you. We require 24 hour notice when canceling your appointment,
+  so our stylists can find a replacement, and maintain their income and livelihood.
+  We reserve the right to charge the price of a missed appointment.
+  Thanks for your help and understanding and keeping us in business and our stylists working.
+</p>
+
+<h2> Children </h2>
+<p>Our goal is to ensure your child’s safety and to provide an environment in which
+  our technicians can focus completely on each of their clients.
+Children are not permitted in the service area unless they are receiving a service themselves.
+For guests of the salon that must bring their children we offer an unsupervised children’s room.
+Unfortunately we are not able to offer the use of this room to guests receiving spa services due
+to it being unsupervised and the parent being unable to attend to the child’s needs.
+</p>
+</div>
+
+
   <body>
+
 
   <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
   </body>
