@@ -3,25 +3,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Title Goes Here</title>
-    <meta name="Stylists" content="Stylists">
+    <title>Ohio Chop Shop</title>
+    <meta name="Home" content="Home">
   </head>
-  <header>
-    <h1>Ohio Chop Shop</h1>
-    <ul>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="stylists.html">Stylists</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="contact.html">Schedule</a></li>
-    </ul>
-  </header>
-  <body>
-    <div>
-      <p>full image</p>
-      <h1>Our Stylists are Cutting Edge</h1>
-    </div>
-    <p>A great haircut is like a work of art. It communicates your unique style and personality. The talented and creative team of hair stylists at the Ohio Chop Shop always consult with you at every appointment to ensure we deliver the look you desire.</p>
+
+<header>
+    <a id="nav-trigger" class="nav-trigger open"></a>
+      <nav id="nav" class="out">
+        <ul>
+          <li><span class="nav-label">Home</span></span></li>
+          <li><span class="nav-label">About</span></li>
+          <li><span class="nav-label">Services</span></li>
+          <li><span class="nav-label">Stylists</span></li>
+          <li><span class="nav-label">Products</span></li>
+          <li><span class="nav-label">Schedule</span></li>
+      </ul>
+    </nav>
+
+  <img src="assets/chopshoplogo.svg"/>
+
+</header>
+
+<!--main content-->
+
+<body>
+
+    <section class="hero-image">
+      <div class="hero-image__container">
+        <div class="hero-image__text">
+          <h1>Our Stylists are Cutting Edge</h1>
+        </div>
+      </div>
+    </section>
+
+  <p>A great haircut is like a work of art. It communicates your unique style and personality. The talented and creative team of hair stylists at the Ohio Chop Shop always consult with you at every appointment to ensure we deliver the look you desire.</p>
     <div>
       <div>
       <a href="#" class="button">View Our Services</a></div>
@@ -30,7 +45,6 @@
     <div>
       <a href="#" class="button">Schedule an Appointment</a></div>
     </div>
-    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
     <footer>
       <h3>small OCH logo</h1>
         <ul>
@@ -38,5 +52,11 @@
           <li>Ohio Chop Shop 1911 W. Akron Ave. Akron OH 44302</li>
         </ul>
       </footer>
+<!--css-->
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!--javascript-->
+      <script src="ocs.js"></script>
   </body>
 </html>
