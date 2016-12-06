@@ -11,7 +11,7 @@
 }
 
 .nav-trigger:after {
-  content:"Menu";
+background-image: url(assets/hamburger.svg)
 }
 
 .nav-trigger.close:after {
@@ -19,8 +19,7 @@
 }
 
 .nav-trigger.open {
-    background-color: black;
-    color: white;
+    color: black;
     transition: .3s all ease-in-out;
 }
 
