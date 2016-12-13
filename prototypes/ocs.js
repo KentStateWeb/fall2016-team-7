@@ -1,3 +1,4 @@
+// selected elements
 var navTrigger = document.getElementById('nav-trigger');
 var nav = document.getElementById('nav');
 var labels = document.getElementsByClassName('nav-label');

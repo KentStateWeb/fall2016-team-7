@@ -2,6 +2,7 @@
   font-family: Helvetica, sans-serif;
 }
 
+/* Nav Button */
 .nav-trigger {
   padding: 1em;
   cursor: pointer;
@@ -11,7 +12,7 @@
 }
 
 .nav-trigger:after {
-background-image: url(assets/hamburger.svg)
+  content:"Menu";
 }
 
 .nav-trigger.close:after {
@@ -19,7 +20,8 @@ background-image: url(assets/hamburger.svg)
 }
 
 .nav-trigger.open {
-    color: black;
+    background-color: black;
+    color: white;
     transition: .3s all ease-in-out;
 }
 
@@ -29,6 +31,7 @@ background-image: url(assets/hamburger.svg)
     position: relative;
 }
 
+/* Full page Navigation */
 nav {
   width: 100%;
   position: fixed;
@@ -64,13 +67,10 @@ nav ul {
 
 nav li {
   height: auto;
-  flex: 1;
+    flex: 1;
   position: relative;
-  background: rgba(0,0,0,1);
+  background: rgba(0,0,0,.95);
   color: white;
-  text-transform: uppercase;
-  border-bottom: 3px solid #9A7745;
-
 }
 
 nav.in {
@@ -91,11 +91,10 @@ nav.in li {
     margin-top: -8px;
 }
 
-/* hero-image */
-
 .hero-image {
+    z-index: -2;
     height: 90vh;
-    background-image:url(assets/hair_flip.jpg);
+    background-image: url(assets/hair_flip.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -113,7 +112,7 @@ nav.in li {
     padding: 1em;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -129,9 +128,6 @@ nav.in li {
     content: "";
 }
 
-body {
-    padding: 1em; /* This just adds spacing - not required */
-}
 
 @media screen and (min-width: 800px) {
 
@@ -141,6 +137,14 @@ body {
     }
 
   div {
-    width: 30%;
+    width: 100%;
   }
+  .boxes_bg{
+    background-color: #65D8E4;
+  }
+}
+
+footer {
+  background-color: gray;
+  padding: 1em;
 }
