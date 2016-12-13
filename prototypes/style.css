@@ -3,6 +3,10 @@
   font-family: Helvetica, sans-serif;
 }
 
+body{
+  margin: 0;
+}
+
 /*nav*/
 
 header {
@@ -124,7 +128,7 @@ a.menu-link {
                 max-height: 23em;
             }
             nav[role=navigation] ul {
-                margin: 0;
+                margin: 1em 0 0 0;
                 padding: 0;
                 border-top: 1px solid #262626;
             }
@@ -158,7 +162,6 @@ a.menu-link {
 /*full image*/
 
 .hero-image {
-    z-index: -2;
     height: 90vh;
     background-image: url(assets/hair_flip.jpg);
     background-repeat: no-repeat;
@@ -182,7 +185,6 @@ a.menu-link {
     text-align: center;
 }
 
-/* All this does is add a 50% black background on top of the image */
 .hero-image:after {
     position: absolute;
     height: 100%;
@@ -297,7 +299,6 @@ a.menu-link {
 }
 
 .column_type{
-  margin-bottom: 10px;
   text-align: center;
   }
 @media screen and (min-width: 1100px) {
