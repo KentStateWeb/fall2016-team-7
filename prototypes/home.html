@@ -8,59 +8,63 @@
     <meta name="The Ohio Chop Shop" content="The Ohio Chop Shop">
   </head>
 
-  <header>
-  <a class="logo" href="home.html">
-  <img src="assets/chopshoplogo.svg" alt="Ohio Chop Shop Logo"></a>
+    <header>
+      <a class="logo" href="home.html"> <img src="assets/chopshoplogo.svg" alt="The Ohio Chop Shop Logo" /></a>
 
-  <a href="#menu" class="menu-link">
-      <div class="menu-link__hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-      </div>
-      <div class="menu-link__label">Menu</div>
-  </a>
+      <a href="#menu" class="menu-link">
+          <div class="menu-link__hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-link__label">Menu</div>
+      </a>
+
+<div class="dropdown-content">
 
   <nav id="menu" role="navigation">
-              <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
-              </ul>
-  </nav>
-  </header>
-
-  <body>
+    <ul>
+    <li><a class="link" href="#">About</a></li>
+    <li><a class="link" href="#">Services</a></li>
+    <li><a class="link" href="stylists.html">Stylists</a></li>
+    <li><a class="link" href="#">Products</a></li>
+    <li><a class="link" href="#">Bridal</a></li>
+    <li><a class="link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <section class="hero-image">
         <div class="hero-image__container"> <!-- If anyone has a more semantic way to do this, let me know -->
             <div class="hero-image__text">
                 <h1>Our Stylists are Cutting Edge</h1>
+                <a class="schedule_button" href="contact.html">Schedule Today</a>
             </div>
         </div>
+
     </section>
 
     <main>
-        <p>A great haircut is like a work of art. It communicates your unique style and personality. The talented and creative team of hair stylists at the Ohio Chop Shop always consult with you at every appointment to ensure we deliver the look you desire.</p>
+        <h1 class="intro_header">It's all in the Details</h1>
+        <p class="intro">A great haircut is like a work of art. It communicates your unique style and personality. The talented and creative team of hair stylists at the Ohio Chop Shop always consult with you at every appointment to ensure we deliver the look you desire.</p>
     </main>
 
     <!-- This is the parent element.  It can be anything, not just section -->
 <div class="boxes_bg">
     <section class="columns">
             <!-- This is the "first" column.  It could be anything, not just div -->
-        <div>
+        <div class="column_type">
           <h2>About</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p>
         </div>
         <!-- This is the "second" column.  It could be anything, not just div -->
-        <div>
+        <div class="column_type">
           <h2>Stylists</h2>
           <p>Sed sit amet molestie diam. Etiam adipiscing dictum eros, vitae feugiat augue convallis sit amet. Nunc quis massa non dolor dictum condimentum.</p>
         </div>
         <!-- This is the "third" column.  It could be anything, not just div -->
-        <div>
+        <div class="column_type">
           <h2>Products</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p>
         </div>
